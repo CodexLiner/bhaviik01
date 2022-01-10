@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/profilebg2"
+    tools:context=".fragment.profile">
+
+    <LinearLayout
+        android:id="@+id/linearp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/allura"
+            android:text="shopNskills"
+            android:textColor="@color/blue"
+            android:textSize="75sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/myprofile"
+                app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:gravity="center"
+                    android:text="Loading..."
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Terms of service "
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Terms of service (also known as terms of use and terms and conditions, commonly abbreviated as TOS or ToS, ToU or T &amp;C) are the legal agreements between a service provider and a person who wants to use that service. The person must agree to abide by the terms of service in order to use the offered service."
+                    android:layout_margin="10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Conditions of Use"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:text="We will provide their services to you, which are subject to the conditions stated below in this document. Every time you visit this app, use its services or make your profile, you accept the following conditions. This is why we urge you to read them carefully."
+                    android:layout_margin="10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_margin="10dp"
+                    android:text="Before you continue using our app we advise you to read our privacy policy [link to privacy policy regarding our user data collection, yhe documents you upload and your information.  It will help you better understand our practices]"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Copyright"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Content published on this app (digital downloads, images, texts, graphics, logos) is the property of [name] and/or its content creators and protected by international copyright laws. The entire compilation of the content found on this website is the exclusive property of [name] with copyright authorship for this compilation by [name]."
+                    android:fontFamily="@font/open_sans"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Communications"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:text="The entire communication with us is electronic. Every time you send us an email or visit our app.you are going to be communicating with us. You hereby consent to receive notifications from us. If you sign in on our app, you are going to receive regular emails from us. We will continue to communicate with you by posting news and notices on your inbox and by sending you emails. "
+                    android:layout_margin="10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Applicable Law"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:text="By visiting this app, you agree that the laws of the your location, without regard to principles of conflict laws, will govern these terms of service, or any dispute of any sort that might come between (name) and you, or its business partners and associates."
+                    android:layout_margin="10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Dispute"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_margin="10dp"
+                    android:text="Any dispute related in any way to your visit to this app,Comments, Reviews, and Emails Visitors may post content as long as it is not obscene, illegal, defamatory, threatening, infringing."
+                    android:textColor="@color/blue" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

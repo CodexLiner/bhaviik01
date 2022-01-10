@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Shop_In_Skills</string>
+    <string name="graphics">Graphics &amp; Design</string>
+    <string name="graphics_in">Logo &amp; Brand Identity, Art &amp; Illustration</string>
+    <string name="digitalmarketing">Digital Marketing</string>
+    <string name="digitalmarketing_in">Social Media Marketing, Social Media Advertising</string>
+
+    <string name="video">Video &amp; Animation</string>
+    <string name="video_in">Whiteboard &amp; Animated Explaners, Video &amp; Animation</string>
+
+    <string name="programming">Programming &amp; Tech</string>
+    <string name="programming_in">Wordpress, Website Builders &amp; CMS</string>
+
+    <string name="data">Data</string>
+    <string name="data_in">Databases, Data Processing</string>
+
+    <string name="writing">Writing &amp; Translation</string>
+    <string name="writing_in">Articles &amp; Blog Posts, Translation</string>
+
+    <string name="music">Music &amp; Audio</string>
+    <string name="music_in">Voice Over, Producers &amp; Composers</string>
+
+
+    <string name="business">Business</string>
+    <string name="business_in">Virtual Assistant, Market Research</string>
+
+
+    <string name="lifestyle">Lifestyle</string>
+    <string name="lifestyle_in">Fashion, Blogging</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="business_in_text">Your Business = Your Passion\nOutsource smaller task so you can focus on growth</string>
+
+
+</resources>

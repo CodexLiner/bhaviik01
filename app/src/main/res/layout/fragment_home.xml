@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Home">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/popbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#00c2cb"
+            android:src="@drawable/ic_baseline_contact_support_24" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linear1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:layout_margin="15dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to promote your skills with shopNskills\n"
+                    android:fontFamily="@font/open_sans_extrabold"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@color/blue"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ask for referrals"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="You can market your business through asking for referrals from your clients- both current and former. If a client is satisfied with your work, he is guaranteed to make referrals if you ask of him. In fact, recent research indicates that 84% of B2B buyers start buying through referrals.\n"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Build client relationships"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="This app is built for you so that you can sharpen your skills, this platform connects you to people’s of different categories and ideas so that you can learn many new things and also you can earn money with your skills by working for costumers.
+Growing your client base is one of the most vital things. Therefore, it is imperative to create relationships with your customers. This should not only include your loyal or repeat customers, ensure to contact your previous customers as well. And this is what our apps helps you to to do.\n"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Build a network"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="One of the most effective ways of marketing your skills is building a network. This app doesn’t include any brand name, here people will have to show their own skills without any brand tag so that client would value everyone based on only your own skills and not with any company.
+This app is the perfect choice for you to enhance and shapen your own skill level and make you highlight yourself among others.\n"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Write for yourself"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:text="This platform won’t interfere with any of your work l. It will let you improvise yourself with your own free will because the shine of stars is maximum when they are alone\n"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
